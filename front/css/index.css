@@ -2,3 +2,44 @@ body {
   background-image: url("./fondo-garabato-abstracto-dibujado-mano_23-2149331175.jpg");
   background-size: 100% auto;
 }
+
+#contacto {
+  background-color: #ffffffcc;
+  padding: 60px 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+#contacto h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilos para el bloque de Tecnologías */
+#tecnologias h5 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#tecnologias i {
+  font-size: 2rem;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+#tecnologias ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#tecnologias ul li:hover {
+  color: #0056b3;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#tecnologias .container {
+  padding-top: 80px !important ; /* Ajusta el valor según lo que necesites */
+}
